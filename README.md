@@ -1,2 +1,2 @@
-# vinissios.github.io
+# http://vinissios.github.io
 Web site acadêmico.
