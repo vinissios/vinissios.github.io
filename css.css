@@ -1,0 +1,226 @@
+/* RESET */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+body{
+	background-color: #CCC7C3;
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	left: 0px;
+	background-color: #595956;
+	position: fixed; 
+}
+#wa{
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	text-decoration: none;
+	color: rgba(255, 255, 255, .2);
+	transition: .2s;
+	padding: 15px;
+}
+#way:hover{
+	color: white;
+}
+.menu-icon{
+	position: fixed;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background-color: #595956;
+	color: white;
+	cursor: pointer;
+	transition: all .4s;
+	top: 0px;
+}
+.menu-icon:hover{
+	color: #DBDBDB;
+}
+#chk{
+	display: none;
+}
+.menu{
+	height: 100%;
+	top: 0px;
+	position: fixed;
+	overflow: hidden;
+	transition: all .2s;
+	background-color: #393A3D;
+}
+#principal{
+	width: 300px;
+	left: -300px;
+}
+ul{
+	list-style: none;
+}
+ul li a{
+	display: block;
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Titillium Web', sans-serif;
+	border-bottom: solid 3px #CCC7C3;
+	color: #fff;
+	text-decoration: none;
+	transition: all .2s;
+}
+ul li span{
+	float: right;
+	padding-right: 20px;
+}
+ul li a:hover{
+	background-color: #47D98B;
+}
+.voltar{
+	background-color: #2BE084; 
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	background-color: rgba(0,0,0,.6);
+	display: none;
+}
+#chk:checked ~.bg{
+	display: block;
+}
+#chk:checked ~ #principal{
+	transform: translateX(300px);
+}
+#cursos{
+	width: 250px;
+	left: -250px;
+}
+#cursos:target{
+	transform: translateX(250px);
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
+}
+.cards{
+	text-align: center;
+	margin-top: 50px;
+}
+.card{
+	background-color: white;
+	margin:20px;
+	border-radius: 10px;
+	display: inline-block;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.divimg{
+	background-color: #595956;
+	padding: 30px;
+	text-align:center;
+}
+.divcard{
+	padding: 20px;
+}
+h5{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	color: black;
+	margin:30px;
+}
+.divbtn{
+	margin: 40px;
+	text-align: center;
+}
+
+.btn{
+	font-family: 'Kosugi', sans-serif;
+	padding: 10px 40px 10px 40px;
+}
+/* BOTÃO PORTUGUÊS */
+.btnport{
+	background-color: #00ABF2;
+	border-radius: 4px;
+	color: white;
+	font-size: 15pt;
+	text-decoration:none;
+	transition: 0.5s;
+}
+.btnport:hover{
+	color: black;
+	background-color: #00D0FC;
+}
+
+/* BOTÃO MATEMÁTICA*/
+.btnmat{
+	background-color: #FFBB00;
+	border-radius: 4px;
+	color: white;
+	font-size: 15pt;
+	text-decoration:none;
+	transition: 0.5s;
+}
+.btnmat:hover{
+	color: black;
+	background-color: #FFDC00;
+}
+/* BOTÃO INGLÊS */
+.btning{
+	background-color: #F0264B;
+	border-radius: 4px;
+	color: white;
+	font-size: 15pt;
+	text-decoration:none;
+	transition: 0.5s;
+}
+.btning:hover{
+	color: black;
+	background-color: #FF284F;
+}
+p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15pt;
+	color: black;
+}
+
+/* BOTÃO FISICA */
+.btnfis{
+	background-color: #2BE084;
+	border-radius: 4px;
+	color: white;
+	font-size: 15pt;
+	text-decoration:none;
+	transition: 0.5s;
+}
+.btnfis:hover{
+	color: black;
+	background-color: #31FF96;
+}
+.entrar:hover{
+	background-color: #16FF88;
+	border-color: #16FF88;
+	color: black;
+}
+.contatos:hover{
+	background-color: #5E5D5E;
+}
+
+/* HERO1 */
+
+.hero1 {
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;	
+    top: 5px;
+    text-align: center;
+}
