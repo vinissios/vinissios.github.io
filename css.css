@@ -16,15 +16,16 @@ header{
 	height: 60px;
 	top: 0px;
 	left: 0px;
-	background-color: #595956;
-	position: fixed; 
+	background-image: linear-gradient(#34495e, #2c3e50);
+	position: fixed;
+	box-shadow: 0px 5px 0px 0px #EED069;
 }
-#wa{
+#way{
 	float: right;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20pt;
 	text-decoration: none;
-	color: rgba(255, 255, 255, .2);
+	color: rgba(255, 255, 255, .9);
 	transition: .2s;
 	padding: 15px;
 }
@@ -39,7 +40,7 @@ header{
 	width: 40px;
 	height: 40px;
 	text-align: center;
-	background-color: #595956;
+	background-color: rgba(0, 0, 0, .0);
 	color: white;
 	cursor: pointer;
 	transition: all .4s;
@@ -70,7 +71,7 @@ ul li a{
 	display: block;
 	padding: 10px;
 	font-size: 25px;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Abel', sans-serif;
 	border-bottom: solid 3px #CCC7C3;
 	color: #fff;
 	text-decoration: none;
@@ -81,10 +82,10 @@ ul li span{
 	padding-right: 20px;
 }
 ul li a:hover{
-	background-color: #47D98B;
+	color: #49F06A;
 }
 .voltar{
-	background-color: #2BE084; 
+	 background-image: linear-gradient(to right, #ee5253, #ff6b6b); 
 }
 .bg{
 	width: 100%;
@@ -122,7 +123,7 @@ ul li a:hover{
 	flex-direction: row;
 }
 .divimg{
-	background-color: #595956;
+	background-color: #283032;
 	padding: 30px;
 	text-align:center;
 }
@@ -130,7 +131,7 @@ ul li a:hover{
 	padding: 20px;
 }
 h5{
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Sirin Stencil', cursive;
 	font-size: 20px;
 	color: black;
 	margin:30px;
@@ -143,11 +144,12 @@ h5{
 .btn{
 	font-family: 'Kosugi', sans-serif;
 	padding: 10px 40px 10px 40px;
+	border-radius: 70px;
 }
 /* BOTÃO PORTUGUÊS */
 .btnport{
-	background-color: #00ABF2;
-	border-radius: 4px;
+
+	background-image: linear-gradient(to right, #0097e6, #3FCFE5);
 	color: white;
 	font-size: 15pt;
 	text-decoration:none;
@@ -160,8 +162,8 @@ h5{
 
 /* BOTÃO MATEMÁTICA*/
 .btnmat{
-	background-color: #FFBB00;
-	border-radius: 4px;
+
+	background-image: linear-gradient(to right, #f39c12, #f1c40f);
 	color: white;
 	font-size: 15pt;
 	text-decoration:none;
@@ -173,8 +175,8 @@ h5{
 }
 /* BOTÃO INGLÊS */
 .btning{
-	background-color: #F0264B;
-	border-radius: 4px;
+
+	background-image: linear-gradient(to right, #c0392b, #e74c3c);
 	color: white;
 	font-size: 15pt;
 	text-decoration:none;
@@ -192,8 +194,7 @@ p{
 
 /* BOTÃO FISICA */
 .btnfis{
-	background-color: #2BE084;
-	border-radius: 4px;
+	background-image: linear-gradient(to right, #27ae60, #2BE084);
 	color: white;
 	font-size: 15pt;
 	text-decoration:none;
@@ -215,6 +216,8 @@ p{
 /* HERO1 */
 
 .hero1 {
+	background-image: url(../img/hero1.jpg);
+	background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
     color: white;
